@@ -31,9 +31,10 @@ The dataset was successfuly loaded to pgAdmin as four DataFrames downloaded into
 
 The dataset had about 2.5 million reviews recorded. In order to focus on reviews that would be considered more likely to be helpful, we needed to filter the dataset by:
 
-Count of Total Votes equal or greater than 20.
-Percent of Helpful Votes to Total Votes equal or greater than 50%.
-The results reduced the total number of reviews from 3M to 28.3K
+* Count of Total Votes equal or greater than 20.  
+* Percent of Helpful Votes to Total Votes equal or greater than 50%.  
+
+The results reduced the total number of reviews from 3M to 28.3K  
 
 ![img1.png](/images/img1.png) 
 
