@@ -7,20 +7,20 @@ The purpose of this analysis is to analyze Amazon reviews to determine if there 
 
 Companies pay a fee to Amazon and may provide free products to Vine members who are then required to publish a review which could be biased. In order to determine if there is any bias towards favorable reviews from Vine members vs. non-members, we need to identify the percentage of 5 star ratings to total rating. 
 
+**Used tools:**  
+PySpark  
+Pandas  
+S3 on AWS  
+PostgreSQL  
+pgAdmin  
+RDS on AWS  
+Google Colaboratory  
+
 Of the 50 datasets, I picked to analyze reviews that were made by users in the "Grocery" category.  
 Dataset used for this analysis can be found <a href="https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Grocery_v1_00.tsv.gz">here at S3 service on AWS</a>  
 All the datasets have the same schemata, as shown in this image:
 
 ![img0.png](/images/img0.png) 
-
-**Used tools:**
-PySpark
-Pandas
-S3 on AWS
-PostgreSQL
-pgAdmin
-RDS on AWS
-Google Colaboratory
 
 
 ## Results
